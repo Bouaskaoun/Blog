@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog FSTG</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+      * {
+        font-family: 'Nunito', sans-serif;
+      }
+      .bg-dark-custom {
+        background-color: #111;
+        color: #fff;
+      }
+      .cardimg img {
+        height: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">FSTG</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-4">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#modules">Modules</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Body-->
+    <div class="container-fluid p-0">
+      <img src="images/college.jpg" style="width: 100%" />
+    </div>
+    <div class="container mt-4">
+      <div class="row">
+        <div id="about" class="col-md-12 col-sm-12">
+          <div class="text-center m-5">
+            <h2>About us</h2>
+            <br />
+            <p class="lead">
+              La licence Systèmes Informatiques Répartis (SIR) est la formation
+              de techniciens spécialisés dans la maintenance de systèmes
+              d'information basés sur des architectures réparties complexes,
+              capable de concevoir, de développer et d’administrer des bases de
+              données, des applications Internet et Intranet sans oublier le
+              développement d’applications réparties et nomade (téléphonie
+              mobile, réseau informatique,…).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-sm-12">
+        <div id="modules" class="text-center m-5">
+          <h2>Licence SIR</h2>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 cardimg">
+            <img src="images/jee.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">JEE</h5>
+              <p class="card-text">
+                JEE (Java Entreprise Edition) est la version entreprise de la
+                plate-forme "Java" qui se compose de l'environnement "JSE" ainsi
+                que de nombreuses API et composants destinés à une utilisation
+                "côté serveur" au sein du système d'information de l'entreprise.
+                Il s'agit donc d'une évolution du Java.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 cardimg">
+            <img src="images/bdr.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">BDR</h5>
+              <p class="card-text">
+                L'objectif de ce module est d'approfondir les connaissances des
+                étudiants dans le domaine des bases de données et tout
+                particulièrement sur les aspects distribués et parallèles. Cet
+                enseignement aborde à la fois les méthodologies de conception et
+                les techniques les plus récentes mises en œuvre dans les noyaux
+                des SGBD.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 cardimg">
+            <img src="images/gui.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">IHM</h5>
+              <p class="card-text">
+                Ce cours vise à initier les étudiants aux concepts de bases
+                d'ergonomie du logiciel et de l'interaction Homme-Machine, aux
+                principes de base de la conception d'une interface ainsi qu'à la
+                conception et l'implantation des interfaces graphiques. Le cours
+                utilise les awt et swing de java comme outils de développement.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 cardimg">
+            <img src="images/php.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">PHP</h5>
+              <p class="card-text">
+                Le PHP, pour Hypertext Preprocessor, désigne un langage
+                informatique, utilisé principalement pour la conception de sites
+                web dynamiques. Il s'agit d'un langage de programmation sous
+                licence libre qui peut donc être utilisé par n'importe qui de
+                façon totalement gratuite.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 cardimg">
+            <img src="images/htmlCssJS.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">HTML | CSS| JAVASCRIPT</h5>
+              <p class="card-text">
+                Ce module consiste à : Initier les étudiants sur des
+                architectures clients/serveur web et des outils de développement
+                pour le serveur web. Etudier un langage orienté client avec une
+                interaction avec les bases de données. Introduire aux étudiants
+                les notions de JQuery et Ajax
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 cardimg">
+            <img src="images/sql.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">SQL</h5>
+              <p class="card-text">
+                Le langage SQL (Structured Query Language) est un langage
+                informatique utilisé pour exploiter des bases de données. Il
+                permet de façon générale la définition, la manipulation et le
+                contrôle de sécurité de données. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Illum recusandae assumenda
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT -->
+    <div id="contact" class="container-fluid mt-4">
+      <div class="container">
+        <h2 class="text-center m-5">
+          Contact us <br /><small>we love conversations. let us talk!</small>
+        </h2>
+        <form class="p-4">
+          <div class="mb-3">
+            <label for="InputEmail1" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="InputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="InputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="InputPassword1" />
+          </div>
+          <div class="mb-3 form-floating">
+            <label for="floatingTextarea2" class="form-label">Comments</label>
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea2"
+              style="height: 100px"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer id="footer" class="text-center mt-4 p-4">
+      <p>
+        212 El Khettabi Marrakech, A10001 Copyright &copy; 2020 Company Template
+        by: <a href="#">ME</a>
+      </p>
+    </footer>
+  </body>
+</html>
